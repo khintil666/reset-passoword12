@@ -1,4 +1,9 @@
 {
-  "public": "public",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/reset-password",
+      "destination": "/reset-password.html"
+    }
+  ]
 }
